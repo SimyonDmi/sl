@@ -12,6 +12,7 @@ namespace ConsoleApp1
         {
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
+<<<<<<< HEAD
 
             Console.WriteLine("{0}+{1}={2}", a, b, a + b);
 
@@ -19,6 +20,9 @@ namespace ConsoleApp1
 
             Console.WriteLine("{0}*{1}={2}", a, b, a * b);
 
+=======
+            Console.WriteLine("{0}/{1}={2}", a, b, a / b);
+>>>>>>> del
             
             Console.ReadKey();
         }
