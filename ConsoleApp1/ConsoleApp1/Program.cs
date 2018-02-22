@@ -12,11 +12,13 @@ namespace ConsoleApp1
         {
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
-<<<<<<< HEAD
 
-=======
->>>>>>> minus
+            Console.WriteLine("{0}+{1}={2}", a, b, a + b);
+
             Console.WriteLine("{0}-{1}={2}", a, b, a - b);
+
+            Console.WriteLine("{0}*{1}={2}", a, b, a * b);
+
             
             Console.ReadKey();
         }
